@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Фан-сайт любимых Twitch стримеров">
+  <meta name="description" content="Фан-сайт о любимых Twitch стримерах Evelone192, Sasavota и NovaBeats">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Twitch Fan Hub</title>
   <link rel="stylesheet" href="css/styles.css">
@@ -11,7 +11,7 @@
 <body>
   <header>
     <h1>Twitch Fan Hub</h1>
-    <p>Истории, любимые моменты и расписание трансляций популярных стримеров.</p>
+    <p>Здесь собраны факты и расписание Evelone192, Sasavota и NovaBeats, плюс интерактивные инструменты.</p>
   </header>
 
   <nav>
@@ -23,37 +23,38 @@
 
   <main>
     <section class="clearfix" id="about">
-      <h2>Почему мы любим Twitch</h2>
+      <h2>Комьюнити Twitch</h2>
       <img class="float-left" src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80" alt="Студия стримера">
-      <p>Twitch — это не просто площадка для игр. Здесь рождаются целые комьюнити, обсуждаются новости киберспорта и появляются новые мемы. Мы собрали три страницы с контентом про любимых стримеров, расписание трансляций и полезные интерактивные инструменты.</p>
-      <p>Каждая секция здесь имеет собственный якорь. Например, можно прыгнуть прямо к <a href="#toolbox">интерактиву</a> и попробовать скрипты в действии.</p>
+      <p>Evelone192 заряжает энергией в CS2 и Just Chatting, Sasavota создаёт уют в Minecraft и IRL, а NovaBeats ставит лайв-сеты. Все материалы разбиты на три страницы: профили, расписание и интерактив.</p>
+      <p>Можно сразу перейти к <a href="#toolbox">интерактивному блоку</a> или открыть подробные профили на странице «Стримеры».</p>
     </section>
 
     <section id="community">
-      <h2>Гайд по разделам</h2>
+      <h2>Что внутри</h2>
       <ul>
-        <li><strong>Стримеры:</strong> профили, любимые рубрики, полезные ссылки.</li>
-        <li><strong>Расписание:</strong> таблица активностей и формат трансляций.</li>
-        <li><strong>Интерактив:</strong> мини-инструменты на JavaScript.</li>
+        <li><strong>Стримеры:</strong> Evelone192, Sasavota и NovaBeats с фактами и ссылками.</li>
+        <li><strong>Расписание:</strong> таблица с днями и форматами стримов.</li>
+        <li><strong>Интерактив:</strong> JavaScript-инструменты для текста и оформления.</li>
       </ul>
-      <p>Для вдохновения смотри официальный <a href="https://www.twitch.tv/" target="_blank" rel="noopener">сайт Twitch</a>.</p>
+      <p>Официальная площадка — <a href="https://www.twitch.tv/" target="_blank" rel="noopener">twitch.tv</a>.</p>
     </section>
 
     <section id="toolbox">
       <h2>Интерактивная зона</h2>
+
       <h3>1. Удалить слова длиннее 7 букв</h3>
-      <textarea id="long-words-text" rows="3">Это пример текста куда можно вставить своё предложение</textarea>
+      <textarea id="long-words-text" rows="3">Evelone собирает легендарные моменты со зрителями</textarea>
       <button onclick="filterLongWords()">Очистить</button>
 
       <h3>2. Найти самую частую букву</h3>
-      <textarea id="letter-text" rows="3">Напиши здесь свой текст и посмотри какая буква побеждает</textarea>
+      <textarea id="letter-text" rows="3">Sasavota любит уютные разговоры и Minecraft</textarea>
       <button onclick="findMostFrequentLetter()">Посчитать</button>
 
-      <h3>3. Удалить цифры и показать в новом окне</h3>
-      <textarea id="digits-text" rows="3">Стример собрал 12345 зрителей 6 раз подряд!</textarea>
+      <h3>3. Удалить цифры и открыть в новом окне</h3>
+      <textarea id="digits-text" rows="3">NovaBeats собрал 12345 зрителей за 6 минут!</textarea>
       <button onclick="removeDigits()">Открыть без цифр</button>
 
-      <h3>4. Поменять фон</h3>
+      <h3>4. Смена фона</h3>
       <button onclick="changeBackground('#100720')">Тёмная ночь</button>
       <button onclick="changeBackground('#1f1147')">Фиолетовый</button>
       <button onclick="changeBackground('#ffe066')">Солнечный</button>
@@ -61,7 +62,7 @@
   </main>
 
   <footer>
-    <p>© 2025 Twitch Fan Hub • <a href="https://help.twitch.tv/" target="_blank" rel="noopener">Справка Twitch</a></p>
+    <p>© 2025 Twitch Fan Hub • <a href="https://help.twitch.tv/" target="_blank" rel="noopener">Поддержка Twitch</a></p>
   </footer>
 </body>
 </html>
