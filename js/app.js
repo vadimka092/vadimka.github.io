@@ -1,11 +1,4 @@
-function filterLongWords() {
-  const text = document.getElementById('long-words-text').value;
-  const filtered = text
-    .split(/\s+/)
-    .filter(word => word.length <= 7)
-    .join(' ');
-  alert('Результат: ' + filtered);
-}
+
 
 function findMostFrequentLetter() {
   const text = document.getElementById('letter-text').value.toLowerCase();
@@ -26,13 +19,7 @@ function findMostFrequentLetter() {
   alert(winner ? `Чаще всего встречается: "${winner}" (${max} раз)` : 'Букв не найдено');
 }
 
-function removeDigits() {
-  const text = document.getElementById('digits-text').value;
-  const cleaned = text.replace(/\d+/g, '');
-  const newWindow = window.open('', '_blank', 'width=400,height=300');
-  newWindow.document.write(`<pre style="font-family:Arial;padding:20px;">${cleaned}</pre>`);
-  newWindow.document.close();
-}
+
 
 
 function changeBackground(color) {
@@ -47,3 +34,4 @@ function updateTitleClock() {
 
 setInterval(updateTitleClock, 1000);
 updateTitleClock();
+
